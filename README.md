@@ -23,6 +23,7 @@ centelleo-ionosferico/
 ├── plots/                # Gráficos de resultados y mapas
 ├── README.md             # Descripción general del proyecto
 └── requirements.txt      # Librerías necesarias
+└── bitacora              # Notas y apuntes de las tareas
 ```
 
 ## 📊 Tecnologías y Herramientas

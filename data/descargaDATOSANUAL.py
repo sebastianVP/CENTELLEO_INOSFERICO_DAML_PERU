@@ -13,7 +13,7 @@ from jrodb import Api
 #print(Api.download.__doc__)
 #from jrodb import Api
 #DESCARGAMOS EL CONJUNTO DE DATOS
-years   = ["2023","2024","2025"]
+years   = ["2020","2023","2024","2025"]
 months  = ["january","february","march","april","may","june",
            "july","august","september","october","november","december"]
 

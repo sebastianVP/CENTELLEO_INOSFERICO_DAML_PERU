@@ -24,7 +24,7 @@ def parse_septentrio_data(sep_file_path):
             for _ in range(num_satellites):
                 id_satellite = int(parts[index])
                 s4 = float(parts[index + 1])
-                azimut = float(parts[index + 2])
+                azimuth = float(parts[index + 2])
                 elevation = float(parts[index + 3])
 
                 # Almacenar los datos como una lista de diccionarios
@@ -32,7 +32,8 @@ def parse_septentrio_data(sep_file_path):
                     'id_satellite': id_satellite,
                     'time': time,
                     's4': s4,
-                    'elevation': elevation
+                    'elevation': elevation,
+                    'azimuth'  : azimuth
                 })
 
                 index += 4

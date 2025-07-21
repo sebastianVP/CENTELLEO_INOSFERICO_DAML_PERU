@@ -33,7 +33,7 @@ DIRS=["JICAMARCA"]
 stations=["jic"]
 
 # YEARS
-years= ["2023","2024","2025"]
+years= ["2020","2023","2024","2025"]
 # MESES
 months = ["january", "february", "march", "april", "may", "june",
     "july", "august", "september", "october", "november", "december"]

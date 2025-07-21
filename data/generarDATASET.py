@@ -47,10 +47,10 @@ def save_to_csv(all_data, output_csv_path):
     # Guardar en un archivo CSV
     with open(output_csv_path, 'w', newline='') as csvfile:
         csvwriter = csv.writer(csvfile)
-        csvwriter.writerow(['ID Satélite', 'Tiempo', 'S4', 'Elevación'])
+        csvwriter.writerow(['ID_Satelite', 'Tiempo', 'S4','Azimuth','Elevacion'])
 
         for entry in all_data:
-            csvwriter.writerow([entry['id_satellite'], entry['time'], entry['s4'], entry['elevation']])
+            csvwriter.writerow([entry['id_satellite'], entry['time'], entry['s4'],entry['azimuth'],entry['elevation']])
 
 def process_directories(input_directories, output_csv_path):
     all_data = []

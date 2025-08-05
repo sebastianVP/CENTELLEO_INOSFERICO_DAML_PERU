@@ -25,10 +25,20 @@ months  = ["january","february","march","april","may","june",
 # station="puc" # "tac" "cuz" "puc" "piu" "hyo" "jic"
 # DIR    ="PUCALLPA" #"TACNA" "CUZCO" "PUCALLPA" "PIURA" "HUANCAYO" "JICAMARCA"
 
-stations = ["cuz","jae","jic","piu","hyo","sbr","ucp","puc"]
-DIRS     = ["CUZCO","JAEN","JICAMARCA","PIURA","HUANCAYO","SAN_BARTOLOME","PUCP","PUCALLPA"]
+stations = ["cuz","jae","jic","piu","hyo","sbr","ucp","puc","tac"]
+DIRS     = ["CUZCO","JAEN","JICAMARCA","PIURA","HUANCAYO","SAN_BARTOLOME","PUCP","PUCALLPA","TACNA"]
 stations = ["jic"]
 DIRS     = ["JICAMARCA"]
+stations = ["piu"]
+DIRS     = ["PIURA"]
+stations = ["hyo"]
+DIRS     = ["HUANCAYO"]
+stations = ["cuz"]
+DIRS     = ["CUZCO"]
+stations = ["puc"]
+DIRS     = ["PUCALLPA"]
+stations = ["tac"]
+DIRS     = ["TACNA"]
 #---------------------------------------------------
 # NO ENCUENTRO PARAMETRO S4,TACNA, PUERTO MALDONADO
 #---------------------------------------------------

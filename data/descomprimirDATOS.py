@@ -32,6 +32,21 @@ stations=["cuz","jae","jic","piu","hyo","sbr","ucp","puc"]
 DIRS=["JICAMARCA"]
 stations=["jic"]
 
+DIRS = ["PIURA"]
+stations=["piu"]
+
+DIRS = ["HUANCAYO"]
+stations = ["hyo"]
+
+DIRS = ["CUZCO"]
+stations = ["cuz"]
+
+DIRS = ["PUCALLPA"]
+stations = ["puc"]
+
+DIRS = ["TACNA"]
+stations = ["tac"]
+
 # YEARS
 years= ["2020","2023","2024","2025"]
 # MESES

@@ -4,7 +4,6 @@ import csv
 
 def parse_septentrio_data(sep_file_path):
     sep_satellites_data = []
-
     with open(sep_file_path, 'r') as sep_file:
         for line in sep_file:
             parts = line.strip().split()
@@ -26,7 +25,7 @@ def parse_septentrio_data(sep_file_path):
                 s4 = float(parts[index + 1])
                 azimuth = float(parts[index + 2])
                 elevation = float(parts[index + 3])
-
+                
                 # Almacenar los datos como una lista de diccionarios
                 sep_satellites_data.append({
                     'id_satellite': id_satellite,
@@ -82,12 +81,28 @@ PPATH="/home/soporte/Documents/CENTELLEO_INOSFERICO_DAML_PERU/data"
 
 
 # DIRECTORIO DE ESTACIONES Y ABREVIATURA
-DIRS=["CUZCO","JAEN","JICAMARCA","PIURA","HUANCAYO","SAN_BARTOLOME","PUCP","PUCALLPA"]
-stations=["cuz","jae","jic","piu","hyo","sbr","ucp","puc"]
+DIRS=["CUZCO","JAEN","JICAMARCA","PIURA","HUANCAYO","SAN_BARTOLOME","PUCP","PUCALLPA","TACNA"]
+stations=["cuz","jae","jic","piu","hyo","sbr","ucp","puc","tac"]
 #------------------------------------------------------------------------------------
 DIRS=["JICAMARCA"]
 stations=["jic"]
-# YEARS
+
+DIRS = ["PIURA"]
+stations=["piu"]
+
+DIRS = ["HUANCAYO"]
+stations = ["hyo"]
+
+DIRS = ["CUZCO"]
+stations = ["cuz"]
+
+DIRS = ["PUCALLPA"]
+stations = ["puc"]
+
+DIRS = ["TACNA"]
+stations = ["tac"]
+
+# YEARS""
 years= ["2023","2024","2025"]
 # MESES
 months = [

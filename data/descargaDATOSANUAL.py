@@ -13,7 +13,8 @@ from jrodb import Api
 #print(Api.download.__doc__)
 #from jrodb import Api
 #DESCARGAMOS EL CONJUNTO DE DATOS
-years   = ["2020","2023","2024","2025"]
+#years   = ["2020","2023","2024","2025"]
+years   = ["2025"]
 months  = ["january","february","march","april","may","june",
            "july","august","september","october","november","december"]
 
@@ -25,10 +26,11 @@ months  = ["january","february","march","april","may","june",
 # station="puc" # "tac" "cuz" "puc" "piu" "hyo" "jic"
 # DIR    ="PUCALLPA" #"TACNA" "CUZCO" "PUCALLPA" "PIURA" "HUANCAYO" "JICAMARCA"
 
-stations = ["cuz","jae","jic","piu","hyo","sbr","ucp","puc","tac"]
-DIRS     = ["CUZCO","JAEN","JICAMARCA","PIURA","HUANCAYO","SAN_BARTOLOME","PUCP","PUCALLPA","TACNA"]
+stations = ["cuz","jae","jic","piu","hyo","sbr","ucp","puc","tac","aya","iqu"]
+DIRS     = ["CUZCO","JAEN","JICAMARCA","PIURA","HUANCAYO","SAN_BARTOLOME","PUCP","PUCALLPA","TACNA","AYACUCHO","IQUITOS"]
 stations = ["jic"]
 DIRS     = ["JICAMARCA"]
+"""
 stations = ["piu"]
 DIRS     = ["PIURA"]
 stations = ["hyo"]
@@ -39,6 +41,11 @@ stations = ["puc"]
 DIRS     = ["PUCALLPA"]
 stations = ["tac"]
 DIRS     = ["TACNA"]
+stations = ["aya"]
+DIRS     = ["AYACUCHO"]
+stations = ["iqu"]
+DIRS     = ["IQUITOS"]
+"""
 #---------------------------------------------------
 # NO ENCUENTRO PARAMETRO S4,TACNA, PUERTO MALDONADO
 #---------------------------------------------------

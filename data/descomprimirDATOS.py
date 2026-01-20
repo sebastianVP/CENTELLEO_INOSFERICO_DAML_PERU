@@ -26,12 +26,12 @@ def process_directories(input_directories):
 # PATH BASE
 PPATH="/home/soporte/Documents/CENTELLEO_INOSFERICO_DAML_PERU/data"
 # DIRECTORIO DE ESTACIONES Y ABREVIATURA
-DIRS=["CUZCO","JAEN","JICAMARCA","PIURA","HUANCAYO","SAN_BARTOLOME","PUCP","PUCALLPA"]
-stations=["cuz","jae","jic","piu","hyo","sbr","ucp","puc"]
+DIRS=["CUZCO","JAEN","JICAMARCA","PIURA","HUANCAYO","SAN_BARTOLOME","PUCP","PUCALLPA","AYACUCHO","IQUITOS"]
+stations=["cuz","jae","jic","piu","hyo","sbr","ucp","puc","aya","iqu"]
 
 DIRS=["JICAMARCA"]
 stations=["jic"]
-
+"""
 DIRS = ["PIURA"]
 stations=["piu"]
 
@@ -47,8 +47,15 @@ stations = ["puc"]
 DIRS = ["TACNA"]
 stations = ["tac"]
 
+DIRS = ["AYACUCHO"]
+stations = ["aya"]
+
+DIRS = ["IQUITOS"]
+stations = ["iqu"]
+"""
 # YEARS
-years= ["2020","2023","2024","2025"]
+# years= ["2020","2023","2024","2025"]
+years= ["2025"]
 # MESES
 months = ["january", "february", "march", "april", "may", "june",
     "july", "august", "september", "october", "november", "december"]

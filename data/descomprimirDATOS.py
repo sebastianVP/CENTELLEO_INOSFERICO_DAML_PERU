@@ -1,7 +1,10 @@
 import os
 import subprocess
+import gzip
+import shutil
 
 def process_directories(input_directories):
+    """
     for input_directory in input_directories:
         print(f"Procesando directorio: {input_directory}")
         try:
@@ -19,6 +22,35 @@ def process_directories(input_directories):
             print("\n")
             print(f"Error al procesar el directorio {input_directory}: {e}")
             print("\n")
+    """
+    for input_directory in input_directories:
+        print(f"\nProcesando directorio: {input_directory}")
+
+        if not os.path.isdir(input_directory):
+            print("Directorio no existe, se omite.")
+            continue
+
+        archivos = os.listdir(input_directory)
+        gz_files = [f for f in archivos if f.endswith(".gz")]
+
+        if not gz_files:
+            print("No hay archivos .gz para descomprimir.")
+            continue
+
+        for archivo in gz_files:
+            ruta_gz = os.path.join(input_directory, archivo)
+            ruta_salida = os.path.join(input_directory, archivo[:-3])  # quitar .gz
+
+            try:
+                with gzip.open(ruta_gz, 'rb') as f_in:
+                    with open(ruta_salida, 'wb') as f_out:
+                        shutil.copyfileobj(f_in, f_out)
+
+                os.remove(ruta_gz)
+                print(f"✔ Descomprimido: {archivo}")
+
+            except Exception as e:
+                print(f"Error al descomprimir {archivo}: {e}")
 
 
 

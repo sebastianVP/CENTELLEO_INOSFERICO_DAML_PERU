@@ -123,7 +123,7 @@ input_directories= [os.path.join(os.path.join(PPATH,DIR),os.path.join(f"{year}_{
 print("Input_directories: ",input_directories)
 # OCSD OUTPUT COMBINED SATELLITES DATA
 for DIR in DIRS:
-    output_csv_path = f"{DIR}_OCSD.csv"
+    output_csv_path = f"{DIR}_OCSD_2025.csv"
 
 process_directories(input_directories, output_csv_path)
 

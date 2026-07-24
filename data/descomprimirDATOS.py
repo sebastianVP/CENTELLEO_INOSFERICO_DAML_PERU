@@ -61,8 +61,9 @@ PPATH="/home/soporte/Documents/CENTELLEO_INOSFERICO_DAML_PERU/data"
 DIRS=["CUZCO","JAEN","JICAMARCA","PIURA","HUANCAYO","SAN_BARTOLOME","PUCP","PUCALLPA","AYACUCHO","IQUITOS"]
 stations=["cuz","jae","jic","piu","hyo","sbr","ucp","puc","aya","iqu"]
 
-DIRS=["JICAMARCA"]
-stations=["jic"]
+
+#DIRS=["JICAMARCA"]
+#stations=["jic"]
 """
 DIRS = ["PIURA"]
 stations=["piu"]

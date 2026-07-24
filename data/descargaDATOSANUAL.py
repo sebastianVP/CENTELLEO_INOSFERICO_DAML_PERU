@@ -28,8 +28,8 @@ months  = ["january","february","march","april","may","june",
 
 stations = ["cuz","jae","jic","piu","hyo","sbr","ucp","puc","tac","aya","iqu"]
 DIRS     = ["CUZCO","JAEN","JICAMARCA","PIURA","HUANCAYO","SAN_BARTOLOME","PUCP","PUCALLPA","TACNA","AYACUCHO","IQUITOS"]
-stations = ["jic"]
-DIRS     = ["JICAMARCA"]
+#stations = ["jic"]
+#DIRS     = ["JICAMARCA"]
 """
 stations = ["piu"]
 DIRS     = ["PIURA"]
